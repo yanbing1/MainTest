@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E19DF6DD1C868294005B335A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DF6DC1C868294005B335A /* main.m */; };
+		E19DF6E01C868294005B335A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DF6DF1C868294005B335A /* AppDelegate.m */; };
+		E19DF6E31C868294005B335A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DF6E21C868294005B335A /* ViewController.m */; };
+		E19DF6E61C868294005B335A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19DF6E41C868294005B335A /* Main.storyboard */; };
+		E19DF6E81C868294005B335A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19DF6E71C868294005B335A /* Assets.xcassets */; };
+		E19DF6EB1C868294005B335A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19DF6E91C868294005B335A /* LaunchScreen.storyboard */; };
+		E19DF6F61C868294005B335A /* YBiCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DF6F51C868294005B335A /* YBiCloudDemoTests.m */; };
+		E19DF7011C868294005B335A /* YBiCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DF7001C868294005B335A /* YBiCloudDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19DF6F21C868294005B335A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19DF6D01C868294005B335A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19DF6D71C868294005B335A;
+			remoteInfo = YBiCloudDemo;
+		};
+		E19DF6FD1C868294005B335A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19DF6D01C868294005B335A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19DF6D71C868294005B335A;
+			remoteInfo = YBiCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E19DF6D81C868294005B335A /* YBiCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBiCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19DF6DC1C868294005B335A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E19DF6DE1C868294005B335A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E19DF6DF1C868294005B335A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E19DF6E11C868294005B335A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E19DF6E21C868294005B335A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19DF6E51C868294005B335A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19DF6E71C868294005B335A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19DF6EA1C868294005B335A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19DF6EC1C868294005B335A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19DF6F11C868294005B335A /* YBiCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBiCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19DF6F51C868294005B335A /* YBiCloudDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBiCloudDemoTests.m; sourceTree = "<group>"; };
+		E19DF6F71C868294005B335A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19DF6FC1C868294005B335A /* YBiCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBiCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19DF7001C868294005B335A /* YBiCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBiCloudDemoUITests.m; sourceTree = "<group>"; };
+		E19DF7021C868294005B335A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19DF6D51C868294005B335A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DF6EE1C868294005B335A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DF6F91C868294005B335A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19DF6CF1C868294005B335A = {
+			isa = PBXGroup;
+			children = (
+				E19DF6DA1C868294005B335A /* YBiCloudDemo */,
+				E19DF6F41C868294005B335A /* YBiCloudDemoTests */,
+				E19DF6FF1C868294005B335A /* YBiCloudDemoUITests */,
+				E19DF6D91C868294005B335A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19DF6D91C868294005B335A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19DF6D81C868294005B335A /* YBiCloudDemo.app */,
+				E19DF6F11C868294005B335A /* YBiCloudDemoTests.xctest */,
+				E19DF6FC1C868294005B335A /* YBiCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19DF6DA1C868294005B335A /* YBiCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E19DF6DE1C868294005B335A /* AppDelegate.h */,
+				E19DF6DF1C868294005B335A /* AppDelegate.m */,
+				E19DF6E11C868294005B335A /* ViewController.h */,
+				E19DF6E21C868294005B335A /* ViewController.m */,
+				E19DF6E41C868294005B335A /* Main.storyboard */,
+				E19DF6E71C868294005B335A /* Assets.xcassets */,
+				E19DF6E91C868294005B335A /* LaunchScreen.storyboard */,
+				E19DF6EC1C868294005B335A /* Info.plist */,
+				E19DF6DB1C868294005B335A /* Supporting Files */,
+			);
+			path = YBiCloudDemo;
+			sourceTree = "<group>";
+		};
+		E19DF6DB1C868294005B335A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19DF6DC1C868294005B335A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E19DF6F41C868294005B335A /* YBiCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E19DF6F51C868294005B335A /* YBiCloudDemoTests.m */,
+				E19DF6F71C868294005B335A /* Info.plist */,
+			);
+			path = YBiCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		E19DF6FF1C868294005B335A /* YBiCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E19DF7001C868294005B335A /* YBiCloudDemoUITests.m */,
+				E19DF7021C868294005B335A /* Info.plist */,
+			);
+			path = YBiCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19DF6D71C868294005B335A /* YBiCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DF7051C868294005B335A /* Build configuration list for PBXNativeTarget "YBiCloudDemo" */;
+			buildPhases = (
+				E19DF6D41C868294005B335A /* Sources */,
+				E19DF6D51C868294005B335A /* Frameworks */,
+				E19DF6D61C868294005B335A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBiCloudDemo;
+			productName = YBiCloudDemo;
+			productReference = E19DF6D81C868294005B335A /* YBiCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19DF6F01C868294005B335A /* YBiCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DF7081C868294005B335A /* Build configuration list for PBXNativeTarget "YBiCloudDemoTests" */;
+			buildPhases = (
+				E19DF6ED1C868294005B335A /* Sources */,
+				E19DF6EE1C868294005B335A /* Frameworks */,
+				E19DF6EF1C868294005B335A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19DF6F31C868294005B335A /* PBXTargetDependency */,
+			);
+			name = YBiCloudDemoTests;
+			productName = YBiCloudDemoTests;
+			productReference = E19DF6F11C868294005B335A /* YBiCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E19DF6FB1C868294005B335A /* YBiCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DF70B1C868294005B335A /* Build configuration list for PBXNativeTarget "YBiCloudDemoUITests" */;
+			buildPhases = (
+				E19DF6F81C868294005B335A /* Sources */,
+				E19DF6F91C868294005B335A /* Frameworks */,
+				E19DF6FA1C868294005B335A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19DF6FE1C868294005B335A /* PBXTargetDependency */,
+			);
+			name = YBiCloudDemoUITests;
+			productName = YBiCloudDemoUITests;
+			productReference = E19DF6FC1C868294005B335A /* YBiCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19DF6D01C868294005B335A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "曹燕兵";
+				TargetAttributes = {
+					E19DF6D71C868294005B335A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E19DF6F01C868294005B335A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E19DF6D71C868294005B335A;
+					};
+					E19DF6FB1C868294005B335A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E19DF6D71C868294005B335A;
+					};
+				};
+			};
+			buildConfigurationList = E19DF6D31C868294005B335A /* Build configuration list for PBXProject "YBiCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19DF6CF1C868294005B335A;
+			productRefGroup = E19DF6D91C868294005B335A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19DF6D71C868294005B335A /* YBiCloudDemo */,
+				E19DF6F01C868294005B335A /* YBiCloudDemoTests */,
+				E19DF6FB1C868294005B335A /* YBiCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19DF6D61C868294005B335A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DF6EB1C868294005B335A /* LaunchScreen.storyboard in Resources */,
+				E19DF6E81C868294005B335A /* Assets.xcassets in Resources */,
+				E19DF6E61C868294005B335A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DF6EF1C868294005B335A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DF6FA1C868294005B335A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19DF6D41C868294005B335A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DF6E31C868294005B335A /* ViewController.m in Sources */,
+				E19DF6E01C868294005B335A /* AppDelegate.m in Sources */,
+				E19DF6DD1C868294005B335A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DF6ED1C868294005B335A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DF6F61C868294005B335A /* YBiCloudDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DF6F81C868294005B335A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DF7011C868294005B335A /* YBiCloudDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19DF6F31C868294005B335A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19DF6D71C868294005B335A /* YBiCloudDemo */;
+			targetProxy = E19DF6F21C868294005B335A /* PBXContainerItemProxy */;
+		};
+		E19DF6FE1C868294005B335A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19DF6D71C868294005B335A /* YBiCloudDemo */;
+			targetProxy = E19DF6FD1C868294005B335A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19DF6E41C868294005B335A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19DF6E51C868294005B335A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19DF6E91C868294005B335A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19DF6EA1C868294005B335A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19DF7031C868294005B335A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19DF7041C868294005B335A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19DF7061C868294005B335A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YBiCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CYB.YBiCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E19DF7071C868294005B335A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YBiCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CYB.YBiCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E19DF7091C868294005B335A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YBiCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CYB.YBiCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBiCloudDemo.app/YBiCloudDemo";
+			};
+			name = Debug;
+		};
+		E19DF70A1C868294005B335A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YBiCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CYB.YBiCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBiCloudDemo.app/YBiCloudDemo";
+			};
+			name = Release;
+		};
+		E19DF70C1C868294005B335A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YBiCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CYB.YBiCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBiCloudDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E19DF70D1C868294005B335A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YBiCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CYB.YBiCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YBiCloudDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19DF6D31C868294005B335A /* Build configuration list for PBXProject "YBiCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DF7031C868294005B335A /* Debug */,
+				E19DF7041C868294005B335A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19DF7051C868294005B335A /* Build configuration list for PBXNativeTarget "YBiCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DF7061C868294005B335A /* Debug */,
+				E19DF7071C868294005B335A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E19DF7081C868294005B335A /* Build configuration list for PBXNativeTarget "YBiCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DF7091C868294005B335A /* Debug */,
+				E19DF70A1C868294005B335A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E19DF70B1C868294005B335A /* Build configuration list for PBXNativeTarget "YBiCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DF70C1C868294005B335A /* Debug */,
+				E19DF70D1C868294005B335A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19DF6D01C868294005B335A /* Project object */;
+}
