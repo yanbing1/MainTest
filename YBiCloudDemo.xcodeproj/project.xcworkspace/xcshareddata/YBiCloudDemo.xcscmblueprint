@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0FA2B4DE6A59A4A327F3A8395463BD3D69973D1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0FA2B4DE6A59A4A327F3A8395463BD3D69973D1F" : 0,
+    "0A7D158F5BC99D0380C095066786918F23E474F4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E1F64EB-69EC-4E0F-9A50-C2E3355B02A1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0FA2B4DE6A59A4A327F3A8395463BD3D69973D1F" : "Main\/",
+    "0A7D158F5BC99D0380C095066786918F23E474F4" : "Main\/www\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YBiCloudDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YBiCloudDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yanbing1\/MyTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A7D158F5BC99D0380C095066786918F23E474F4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yanbing1\/MainTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FA2B4DE6A59A4A327F3A8395463BD3D69973D1F"
+    }
+  ]
+}

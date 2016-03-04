@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10F04A31C897D1D006928A7 /* www in Resources */ = {isa = PBXBuildFile; fileRef = E10F04A21C897D1D006928A7 /* www */; };
 		E199FDEE1C86E60B00B32630 /* YBiCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E199FDE91C86E60B00B32630 /* YBiCloud.m */; };
 		E199FDEF1C86E60B00B32630 /* YBiCloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E199FDEB1C86E60B00B32630 /* YBiCloudDocument.m */; };
 		E199FDF01C86E60B00B32630 /* YBiCloudKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E199FDED1C86E60B00B32630 /* YBiCloudKeyValueStore.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10F04A21C897D1D006928A7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		E199FDE81C86E60B00B32630 /* YBiCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBiCloud.h; sourceTree = "<group>"; };
 		E199FDE91C86E60B00B32630 /* YBiCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBiCloud.m; sourceTree = "<group>"; };
 		E199FDEA1C86E60B00B32630 /* YBiCloudDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBiCloudDocument.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		E19DF6CF1C868294005B335A = {
 			isa = PBXGroup;
 			children = (
+				E10F04A21C897D1D006928A7 /* www */,
 				E199FDE71C86E60B00B32630 /* YBiCloud */,
 				E19DF6DA1C868294005B335A /* YBiCloudDemo */,
 				E19DF6F41C868294005B335A /* YBiCloudDemoTests */,
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10F04A31C897D1D006928A7 /* www in Resources */,
 				E19DF6EB1C868294005B335A /* LaunchScreen.storyboard in Resources */,
 				E19DF6E81C868294005B335A /* Assets.xcassets in Resources */,
 				E19DF6E61C868294005B335A /* Main.storyboard in Resources */,
